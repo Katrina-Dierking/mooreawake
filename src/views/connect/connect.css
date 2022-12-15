@@ -1,0 +1,15 @@
+a {
+    color: black;
+}
+
+.connect {
+      width: 50vw;
+    border: 1px solid lightgrey;
+    margin: 5%;
+    padding: 2%;
+}
+
+.connectIcons {
+    display:flex;
+    height: 30vh;
+}

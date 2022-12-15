@@ -1,0 +1,16 @@
+.gallery {
+    margin-left: 30%;
+    margin-top: 10%;
+   height: 591px;
+   width: 743px;
+}
+
+.gallery img {
+   height: 591px;
+   width: 443px;
+     padding: 10%;
+   
+}
+.gallery h3, p {
+    color:white;
+}

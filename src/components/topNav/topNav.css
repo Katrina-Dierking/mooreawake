@@ -1,0 +1,77 @@
+.logo {
+    /* font-family: 'Splash', cursive; */
+     font-family: 'Estonia', cursive;
+    color: white;
+    font-size: 42px;
+}
+.pixLogo {
+    display:flex;
+    flex-direction: column;
+}
+
+.navbar-header{
+    width: 21vw;
+    height: 10vh;
+    
+}
+.container-fluid {
+    padding-bottom: 5%;
+    display:flex;
+}
+
+.navbar-inverse{
+    width: 100vw;
+    height: 15vh;
+    box-shadow: 5px 5px 5px grey;
+    margin: 0 auto;
+    border-radius: 0;
+    padding: 3%;
+
+}
+
+a {
+ margin: -7%;
+}
+
+.icons {
+    padding: 1%;
+    /* margin-top:2%; */
+    width: 50vw;
+    display:flex;
+   justify-content: space-evenly;
+}
+.icons-search{
+    width: 70vw;
+    padding-top: 1%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.iconLabels {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90px;
+    justify-content: space-between;
+}
+
+.iconLabels a {
+    color:gray;
+}
+
+a:hover, a:focus{
+    color:red;
+    text-decoration: none;
+}
+
+.logo:hover, .logo:focus {
+    color:grey;
+}
+
+
+
+li img {
+    box-shadow: 5px 5px 5px lightgrey;
+    border-radius: 50%;;
+}

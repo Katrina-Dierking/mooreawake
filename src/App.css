@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.about, .statement{
+  border: 1px solid lightgrey;
+  padding: 2%;
+  margin: 5%;
+  width: 55vw;
+}
+
+.about p, .statement p{
+
+  color:black;
+}

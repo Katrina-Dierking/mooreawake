@@ -1,0 +1,32 @@
+.heroSection {
+    display:flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100vw;
+    margin-top: 5%;
+   
+}
+
+.heroSection .verse p {
+    font-size: 64px;
+}
+
+.christmasPic {
+    height: 70vh;
+  
+} 
+
+.verse {
+    margin-top: -27%;
+    color: black;
+    font-size: 32px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.verse p {
+       font-family: 'Estonia', cursive;
+       font-size: 42px;
+}
