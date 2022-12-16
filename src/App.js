@@ -15,11 +15,6 @@ import { Resources } from './views/resources/Resources';
 
 function App() {
   return (
-    // <div className="App">
-     
-    //    <Home />
-   
-    // </div>
 
     <BrowserRouter>
       <Routes>
