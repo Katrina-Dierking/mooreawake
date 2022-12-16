@@ -1,7 +1,6 @@
 import React from 'react'
-import awakeChristmas from '../../images/awakeChristmas.jpg'
 import stars from '../../images/stars.jpg'
-import galaxy from '../../images/galaxy.jpg'
+
 import './header.css'
 
 export const Header = () => {
