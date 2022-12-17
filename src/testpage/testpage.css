@@ -1,3 +1,9 @@
+.pageBody {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .testBody {
     background-image: url("joel-cross.png") ;
     background-repeat: no-repeat;
@@ -6,38 +12,17 @@
     width: 100vw;
 }
 
+
 .swirl img{
     height: 40vh;
     width: 100vw;
     margin-top: -8%;
 }
 
-.buttons {
-    border: 3px solid #3ab8d6;
-    background-color: lightgrey;
-    border-radius: 4%;
-    width: 20vw;
-    display:flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: center;
-    margin-top:-35%;
-    margin-left: 65%;
-    margin-bottom: 50%;
-    padding: 1%;
-}
-
-.choices{
-    padding-top:4%;
-    display:flex;
-    justify-content: space-evenly;
-    width: 15vw;
-
-}
 
 .testVerse {
-    margin-top: -37%;
-    margin-left: 60%;
+    margin-top:-130%;
+    margin-left: 75%;
     width: 30vw;
     display:flex;
     flex-direction: column;
@@ -49,5 +34,10 @@
  font-family: 'Charm', cursive;
        font-size: 36px;
        font-weight:400;
-       color:black;
+       color: black;
+}
+
+.testVerse .awake {
+    color: teal;
+    font-family: 'Cinzel Decorative', cursive;
 }

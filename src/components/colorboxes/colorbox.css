@@ -1,0 +1,46 @@
+.colorBoxes {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 10vh;
+    padding-bottom:10%;
+    margin-top: 2%;
+  
+}
+
+.circle-1,
+.circle-2,
+.circle-3 {
+  color: #fff;
+  padding: 10%;
+  width: 320px;
+  height: 320px;
+  margin: 0 -15px;
+  mix-blend-mode: multiply;
+}
+.circle-1 {
+ background: linear-gradient(132deg, rgb(2, 108, 223) 0.00%, rgb(0, 246, 253) 100.00%);
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+}
+.circle-2 {
+ background: linear-gradient(132deg, rgb(30, 144, 255) 0.00%, rgb(138, 43, 226) 100.00%);
+  border-radius: 80% 30% 50% 50%/50%;
+}
+.circle-3 {
+background: linear-gradient(132deg, rgb(31, 207, 195) 0.00%, rgb(31, 145, 207) 100.00%);
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+/* 
+body{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #ffd;
+} */
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+}

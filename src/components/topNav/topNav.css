@@ -55,6 +55,7 @@ a {
 .icons-search ul li a{
     color:black;
     font-family: 'Cinzel Decorative', cursive;
+      font-weight: bold;
 }
 
 .iconLabels {
