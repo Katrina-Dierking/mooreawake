@@ -13,3 +13,7 @@ a {
     display:flex;
     height: 30vh;
 }
+
+.connectIcons ul {
+    list-style-type: none;
+}

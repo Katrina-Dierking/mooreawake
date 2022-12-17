@@ -30,3 +30,18 @@
        font-family: 'Estonia', cursive;
        font-size: 42px;
 }
+
+
+@media screen and (max-width: 868px) {
+    
+    .verse {
+        margin-top:-150%;
+        padding: 10%;
+    }
+
+    .heroSection .verse p {
+        font-size: 42px;
+        margin-top:0;
+    }
+
+}

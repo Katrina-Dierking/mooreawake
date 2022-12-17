@@ -1,6 +1,14 @@
+
+
 .resources {
     width: 50vw;
-    border: 1px solid lightgrey;
-    margin: 5%;
+    border: 1px solid lightgrey; 
     padding: 2%;
+    margin:auto;
+    margin-top: 5%;
+
+}
+
+.resources ul {
+    list-style-type: none;
 }

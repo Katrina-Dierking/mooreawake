@@ -1,21 +1,25 @@
 .logo {
-    /* font-family: 'Splash', cursive; */
-     font-family: 'Estonia', cursive;
+  font-family: 'Cinzel Decorative', cursive;
     color: white;
-    font-size: 42px;
+    font-size: 32px;
 }
 .pixLogo {
     display:flex;
     flex-direction: column;
+
+}
+
+.navbar {
+    /* background-color:#6fadc7; */
+    background: linear-gradient(132deg, rgb(0, 48, 143) 0.00%, rgb(0, 255, 255) 100.00%);
 }
 
 .navbar-header{
     width: 21vw;
     height: 10vh;
-    
 }
 .container-fluid {
-    padding-bottom: 5%;
+    padding-top:1%;
     display:flex;
 }
 
@@ -26,7 +30,7 @@
     margin: 0 auto;
     border-radius: 0;
     padding: 3%;
-
+    
 }
 
 a {
@@ -38,14 +42,19 @@ a {
     /* margin-top:2%; */
     width: 50vw;
     display:flex;
-   justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 .icons-search{
     width: 70vw;
     padding-top: 1%;
     display:flex;
     justify-content: space-between;
+    
+}
 
+.icons-search ul li a{
+    color:black;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 .iconLabels {
@@ -73,5 +82,55 @@ a:hover, a:focus{
 
 li img {
     box-shadow: 5px 5px 5px lightgrey;
-    border-radius: 50%;;
+    border-radius: 50%;
 }
+
+@media screen and (max-width: 868px){
+    .pixLogo {
+        width: 95vw;
+
+    }
+
+    .logo {
+        font-size: 32px;
+        text-align: center;
+        padding-top:3%;
+    }
+
+    .icons img {
+        display:none;
+    }
+
+    .iconLabels {
+        height: 3vh;
+        padding-bottom: 5%;
+
+    }
+
+    .icons {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 30vh;
+        width: 25vw;
+        background-color: lightgrey;
+        margin:0;
+    }
+
+    .container-fluid{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .input-group {
+        display:none;
+    }
+
+    .navbar-form {
+        border: none;
+        box-shadow: none;
+    }
+}
+
+
+

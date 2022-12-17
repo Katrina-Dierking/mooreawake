@@ -1,5 +1,6 @@
 import React from 'react'
 import { TopNav } from "../../components/topNav/TopNav";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './connect.css'
 
 
@@ -14,13 +15,25 @@ export const Connect = () => {
         <h3>Connect</h3>
         <div className="connectIcons">
           <ul>
-            <a href="https://www.facebook.com/mooreawake/">Facebook</a>
-            <br></br>
-            <a
-              href="https://www.youtube.com/@mooreawakechurch"
-            >
-              YouTube
-            </a>
+            <i class="fas fa-facebook fa-lg"></i>
+            <li>
+              <a
+                href="https://www.facebook.com/mooreawake/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/@mooreawakechurch"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                YouTube
+              </a>
+            </li>
           </ul>
         </div>
       </section>

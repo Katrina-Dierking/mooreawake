@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import './staff.css'
 import scott from '../../images/scott.jpg'
-import kenny from '../../images/kenny.jpg'
+import kenny from '../../images/Kenny.jpg'
 import kerry from '../../images/kerry.jpg'
 
 export const Staff = () => {

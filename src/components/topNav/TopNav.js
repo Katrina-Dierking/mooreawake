@@ -29,7 +29,7 @@ export const TopNav = () => {
             </button>
             <div className="pixLogo">
               <Link to="/" className="logo">
-                MOORE AWAKE CHURCH
+                Moore Awake Church
               </Link>
             </div>
           </div>
