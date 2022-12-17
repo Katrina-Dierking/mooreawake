@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.31561ded.css",
-    "main.js": "/static/js/main.cc21a880.js",
+    "main.css": "/static/css/main.38087fc4.css",
+    "main.js": "/static/js/main.4cf59646.js",
     "static/js/787.acd3bc66.chunk.js": "/static/js/787.acd3bc66.chunk.js",
+    "static/media/blue-swirl.png": "/static/media/blue-swirl.273f9e935e1d86c9d647.png",
+    "static/media/joel-cross.png": "/static/media/joel-cross.30578153c5e5d56ce1db.png",
     "static/media/stars.jpg": "/static/media/stars.be9464ec8e99bbcd5943.jpg",
+    "static/media/Kenny.jpg": "/static/media/Kenny.98a3d81b5705d397c76a.jpg",
     "static/media/kerry.jpg": "/static/media/kerry.794834d75fb1a07b75ed.jpg",
     "static/media/scott.jpg": "/static/media/scott.ed5cde21f776948bd1de.jpg",
-    "static/media/kenny.jpg": "/static/media/kenny.3dafd006f9519360d880.jpg",
     "static/media/connect.png": "/static/media/connect.6757f34202e95246e61a.png",
     "static/media/staff.png": "/static/media/staff.25c616c82f0959884134.png",
     "static/media/contact.png": "/static/media/contact.7dc053cda8b67dd948b3.png",
     "static/media/resources.png": "/static/media/resources.881258d4abd00cbc7a25.png",
     "index.html": "/index.html",
-    "main.31561ded.css.map": "/static/css/main.31561ded.css.map",
-    "main.cc21a880.js.map": "/static/js/main.cc21a880.js.map",
+    "main.38087fc4.css.map": "/static/css/main.38087fc4.css.map",
+    "main.4cf59646.js.map": "/static/js/main.4cf59646.js.map",
     "787.acd3bc66.chunk.js.map": "/static/js/787.acd3bc66.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31561ded.css",
-    "static/js/main.cc21a880.js"
+    "static/css/main.38087fc4.css",
+    "static/js/main.4cf59646.js"
   ]
 }
