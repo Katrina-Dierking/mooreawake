@@ -39,8 +39,16 @@ body{
   background: #ffd;
 } */
 
-@media (max-width: 600px) {
+@media screen and (max-width: 652px){
   body {
     flex-direction: column;
+  }
+
+  .circle-1, 
+  .circle-2,
+  .circle-3 {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10%;
   }
 }

@@ -11,8 +11,7 @@ const Home = () => {
   return (
   
       <section className="homeBody">
-      <TopNav />
-      <Header />
+      <TestPage />
       <Footer />
       </section>
       
@@ -20,4 +19,5 @@ const Home = () => {
     }
     
     export default Home
-    // <TestPage />
+    // <TopNav />
+    // <Header />

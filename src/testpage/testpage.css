@@ -41,3 +41,15 @@
     color: teal;
     font-family: 'Cinzel Decorative', cursive;
 }
+
+@media screen and (max-width: 652px){
+    .swirl {
+        margin-top: -65%;
+    }
+
+    .testVerse {
+        display:none;
+    }
+
+   
+}
