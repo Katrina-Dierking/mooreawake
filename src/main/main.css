@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.testBody {
+.mainBody {
     background-image: url("joel-cross.png") ;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -20,7 +20,7 @@
 }
 
 
-.testVerse {
+.mainVerse {
     margin-top:-130%;
     margin-left: 75%;
     width: 30vw;
@@ -30,14 +30,14 @@
 
 }
 
-.testVerse p {
+.mainVerse p {
  font-family: 'Charm', cursive;
        font-size: 36px;
        font-weight:400;
        color: black;
 }
 
-.testVerse .awake {
+.mainVerse .awake {
     color: teal;
     font-family: 'Cinzel Decorative', cursive;
 }
@@ -47,7 +47,7 @@
         margin-top: -65%;
     }
 
-    .testVerse {
+    .mainVerse {
         display:none;
     }
 

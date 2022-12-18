@@ -1,22 +1,22 @@
 import React from 'react'
 import { TopNav } from '../components/topNav/TopNav'
-import './testpage.css'
+import './main.css'
 import blueSwirl from './blue-swirl.png'
 import ColorBox from '../components/colorboxes/ColorBox'
 
 
-const TestPage = () => {
+const Main = () => {
   return (
     <>
       <div className="pageBody">
-        <div className="testBody">
+        <div className="mainBody">
           <TopNav />
         </div>
         <section className="swirl">
           <img src={blueSwirl} />
           </section>
           <section>
-            <div className="testVerse">
+            <div className="mainVerse">
               <p>
                 And that, knowing the time, that now it is high time to <span className='awake'>Awake </span>
                 out of sleep:
@@ -32,5 +32,5 @@ const TestPage = () => {
   );
 }
 
-export default TestPage
+export default Main
 

@@ -1,8 +1,6 @@
 import React from 'react'
 import Footer from '../../components/footer/Footer'
-import { Header } from '../../components/header/Header'
-import { TopNav } from '../../components/topNav/TopNav'
-import TestPage from '../../testpage/TestPage'
+import Main from '../../main/Main'
 import './home.css'
 
 
@@ -11,7 +9,7 @@ const Home = () => {
   return (
   
       <section className="homeBody">
-      <TestPage />
+      <Main />
       <Footer />
       </section>
       
@@ -19,5 +17,3 @@ const Home = () => {
     }
     
     export default Home
-    // <TopNav />
-    // <Header />
