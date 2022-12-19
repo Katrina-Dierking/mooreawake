@@ -25,10 +25,11 @@ export const Staff = () => {
               <Card.Title>
                 <h5>
                   {" "}
-                  Pastor Scott McInnis attended "school" in "year". He became
-                  the pastor Red Branch Baptist Church in "year" where he
-                  started a plant church. In 2017, he became the pastor of Awake
-                  Church.
+                  Pastor Scott McInnis graduated from Andersonville Theological
+                  Seminary with a degree in Biblical Studies. He and others
+                  planted Awake Church in 2017, where he is the Senior Pastor.
+                  Pastor Scott is married to his wife Jill and they have two
+                  children together, Stephen and Rebekah.
                 </h5>
                 <br></br>
                 <h5>
@@ -47,8 +48,7 @@ export const Staff = () => {
                 <h4>Kenny Ring | Elder</h4>
               </Card.Title>
               <Card.Title>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              
               </Card.Title>
               <Button variant="primary">Email</Button>
             </Card.Body>
@@ -63,8 +63,7 @@ export const Staff = () => {
                 <h4>Kerry Alzar | Elder</h4>
               </Card.Title>
               <Card.Title>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+
               </Card.Title>
               <Button variant="primary">Email</Button>
             </Card.Body>
@@ -77,8 +76,7 @@ export const Staff = () => {
                 <h4>Stephen McInnis | Deacon</h4>
               </Card.Title>
               <Card.Title>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+        
               </Card.Title>
               <Button variant="primary">Email</Button>
             </Card.Body>
