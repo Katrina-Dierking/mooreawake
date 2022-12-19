@@ -16,31 +16,31 @@ export const Staff = () => {
 
       <section className="staffSection">
         <section className="cardTop">
-          <Card className="staffCard" style={{ width: "38rem" }}>
+          <Card className="staffCard one">
             <Card.Img variant="top" src={scott} />
             <Card.Body>
               <Card.Title>
                 <h4>Pastor Scott McInnis</h4>
               </Card.Title>
               <Card.Title>
-                <h5>
+                <p>
                   {" "}
                   Pastor Scott McInnis graduated from Andersonville Theological
                   Seminary with a degree in Biblical Studies. He and others
                   planted Awake Church in 2017, where he is the Senior Pastor.
                   Pastor Scott is married to his wife Jill and they have two
                   children together, Stephen and Rebekah.
-                </h5>
-                <h5>
+                </p>
+                <p>
                   He married his wife Jill McInnis in "year" and together they
                   have two children, Stephen and Rebecka.
-                </h5>
+                </p>
               </Card.Title>
               <Button variant="primary">Email</Button>
             </Card.Body>
           </Card>
 
-          <Card className="staffCard" style={{ width: "38rem" }}>
+          <Card className="staffCard two">
             <Card.Img variant="top" src={kenny} />
             <Card.Body>
               <Card.Title>
@@ -55,7 +55,7 @@ export const Staff = () => {
         </section>
 
         <section className="cardBottom">
-          <Card className="staffCard" style={{ width: "38rem" }}>
+          <Card className="staffCard three" >
             <Card.Img variant="top" src={kerry} />
             <Card.Body>
               <Card.Title>
@@ -68,7 +68,7 @@ export const Staff = () => {
             </Card.Body>
           </Card>
 
-          <Card className="staffCard" style={{ width: "38rem" }}>
+          <Card className="staffCard four" >
             <Card.Img variant="top" src={""} />
             <Card.Body>
               <Card.Title>
