@@ -71,12 +71,12 @@ a {
 }
 
 a:hover, a:focus{
-    color:red;
+    color:blue;
     text-decoration: none;
 }
 
 .logo:hover, .logo:focus {
-    color:grey;
+    color:black;
 }
 
 
