@@ -13,13 +13,14 @@
 .staffCard {
     border: 1px solid lightgrey;
     width: 25vw;
-    height: 50vwh;
+    height: 90vwh;
     margin: 2%;
-    padding: 1%;
+    padding: 2%;
     box-shadow: 5px 5px 5px grey;
     display:flex;
     flex-direction: column;
     align-items: center;
+    background-color: red;
  
 
 }
@@ -35,5 +36,5 @@
 
 .cardTop, .cardBottom {
   display:flex;
-  height: 75vh;
+  height: 80vh;
 }

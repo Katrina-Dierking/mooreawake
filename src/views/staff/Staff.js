@@ -31,7 +31,6 @@ export const Staff = () => {
                   Pastor Scott is married to his wife Jill and they have two
                   children together, Stephen and Rebekah.
                 </h5>
-                <br></br>
                 <h5>
                   He married his wife Jill McInnis in "year" and together they
                   have two children, Stephen and Rebecka.
