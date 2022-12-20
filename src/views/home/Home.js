@@ -1,7 +1,6 @@
 import React from 'react'
 import Footer from '../../components/footer/Footer'
 import Main from '../../main/Main'
-import Login from '../login/Login'
 import './home.css'
 
 
@@ -13,7 +12,6 @@ const Home = () => {
       
       
       <Main />
-      <Login />
       <Footer />
       </section>
       
