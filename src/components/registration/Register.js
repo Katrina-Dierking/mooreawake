@@ -98,3 +98,4 @@ export default function Register () {
 }
 
 
+//TODO (1-11-23): reinstall react and all dependencies as well as npm

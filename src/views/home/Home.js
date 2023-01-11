@@ -9,11 +9,11 @@ import './home.css'
 const Home = () => {
   return (
   
-      // <section className="homeBody">
-      // <Main />
-      // <Footer />
-      // </section>
-      <Register />
+      <section className="homeBody">
+      <Main />
+      <Footer />
+      </section>
+      // <Register />
       
       );
     }
